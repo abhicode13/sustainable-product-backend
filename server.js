@@ -22,7 +22,7 @@ app.use(limiter);
 
 // CORS configuration
 app.use(cors({
-  origin: ['https://glittering-pika-7abe1a.netlify.app', 'http://127.0.0.1:3001', 'http://localhost:3000'],
+  origin: ['https://sustainable-product.netlify.app/', 'http://127.0.0.1:3001', 'http://localhost:3000'],
 
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
